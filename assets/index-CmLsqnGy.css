@@ -10,34 +10,3 @@
 #root{animation:app-fade .45s ease both}
 @keyframes app-fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 
-/* === full black + gold dark theme === */
-html,body{background:#0b0b0d}
-/* surfaces */
-.bg-paper{background-color:#0b0b0d !important}
-.bg-white,.bg-white\/85,.bg-white\/10{background-color:#161619 !important}
-.bg-stone-50,.bg-stone-50\/60,.bg-stone-50\/70{background-color:#161619 !important}
-.bg-stone-100{background-color:#1d1d21 !important}
-.bg-stone-200{background-color:#26262b !important}
-.hover\:bg-stone-50:hover{background-color:#202024 !important}
-.hover\:bg-stone-100:hover{background-color:#26262b !important}
-.hover\:bg-white:hover{background-color:#1d1d21 !important}
-/* gold accent panels (were pale gold) */
-.bg-brand-50,.bg-brand-50\/40{background-color:rgba(198,160,74,.10) !important}
-.bg-brand-100{background-color:rgba(198,160,74,.18) !important}
-.hover\:bg-brand-50:hover,.hover\:bg-brand-50\/50:hover,.hover\:bg-brand-50\/40:hover,.hover\:bg-brand-100:hover{background-color:rgba(198,160,74,.2) !important}
-.text-brand-700{color:#dcb65c !important}
-/* text */
-.text-stone-900{color:#f3ecdc !important}
-.text-stone-800{color:#e6decb !important}
-.text-stone-700{color:#d4cbb6 !important}
-.text-stone-600{color:#bbb29e !important}
-.text-stone-500{color:#9b9381 !important}
-.text-stone-400{color:#827b6b !important}
-.text-stone-300{color:#5f594e !important}
-.hover\:text-stone-900:hover{color:#f3ecdc !important}
-.hover\:text-stone-700:hover{color:#d4cbb6 !important}
-/* borders -> subtle gold */
-.border-stone-100{border-color:rgba(198,160,74,.10) !important}
-.border-stone-200{border-color:rgba(198,160,74,.16) !important}
-.border-stone-300,.hover\:border-stone-300:hover{border-color:rgba(198,160,74,.28) !important}
-.divide-stone-100 > :not([hidden]) ~ :not([hidden]){border-color:rgba(198,160,74,.10) !important}
